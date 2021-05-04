@@ -1,0 +1,44 @@
+
+.menu{
+    list-style:none;
+    position: absolute;
+    top:10px;
+  right:30px;
+    z-index:10;
+    cursor: pointer;
+} 
+.links{
+ float: left;
+padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    color: white;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: darkmagenta;
+} 
+body{
+    text-align: center;
+} 
+.profile{
+    height: 175px;
+    width:175px;
+    border-radius:50%; 
+    margin-top:50px;
+} 
+#welcome{
+background: linear-gradient(#47adc9 0%,#ed6da9 100%);
+}
+.line{
+    height: 6px;
+    width:70px;
+    background-color:black;
+    margin: 8px auto;
+} 
+#bio{
+    padding:50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
